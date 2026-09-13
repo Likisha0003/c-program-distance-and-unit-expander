@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+float s,t,d,m,c,ml;
+printf("enter speed in kilometres per hour:");
+scanf ("%f",&s);
+printf("enter time in hours:");
+scanf ("%f",&t);
+d=s*t;
+m=d*1,000;
+c=d*100,000;
+ml=d*1,000,000;
+printf("distance:%.2f\n",d);
+printf("meters:%.2f\n",m);
+printf("centimetres:%.2f\n",c);
+printf("millimetre:%.2f\n",ml);
+return 0;
+}
